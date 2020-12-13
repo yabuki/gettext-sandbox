@@ -8,11 +8,11 @@ I'd like to make some sample program.
 
 # directories
 
-/
+/(repository root)
 - LICENSE
 - README.md (This file)
 + dash
-  - README.md (Test enironment building guide)
+  - README.md (Test environment building guide)
   + gettext.sh
     - hello.mo
     - hello.sh
