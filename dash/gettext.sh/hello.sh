@@ -10,5 +10,5 @@ export TEXTDOMAIN
 TEXTDOMAINDIR=`pwd`/locale
 export TEXTDOMAINDIR
 
-gettext "Hello World"; echo
-echo "`gettext "Hello World"`"
+eval_gettext "Hello World"; echo
+echo "`eval_gettext "Hello World"`"
